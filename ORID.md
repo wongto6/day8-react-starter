@@ -1,0 +1,7 @@
+O: Today, I learned about Spring Mapper and Flyway, focusing on how they facilitate data mapping and database migrations. We examined how Spring Mapper simplifies the interaction between Java objects and SQL databases, while Flyway provides a systematic way to manage database versioning and migrations. Additionally, I began exploring React, a popular front-end library for building user interfaces.
+
+R: The practical exercises with Spring Mapper and Flyway were particularly enlightening. Implementing data mappings and executing migrations helped me grasp how these tools enhance project organization and database management. Starting with React was exciting, as it introduced a new way to think about building interactive user interfaces.
+
+I: Using Spring Mapper and Flyway improves the efficiency of data handling and ensures database integrity across versions. Meanwhile, learning React opens up new possibilities for developing dynamic web applications. This combination of technologies reinforces the importance of a solid architecture in both back-end and front-end development.
+
+D: Moving forward, I plan to integrate Spring Mapper and Flyway into my upcoming projects to streamline database interactions. I will also dedicate time to further explore React, aiming to build a solid foundation in front-end development. Participating in collaborative sessions will help deepen my understanding and enhance my skills in these areas.
