@@ -20,8 +20,6 @@ const CounterGroupGenerator = (props) => {
 
     function handleReset() {
         if (counterSize !== size) {
-            console.log(counterSize)
-            console.log(size)
             setSum(0)
         }
         setCounterSize(size)
