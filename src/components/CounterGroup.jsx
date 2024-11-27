@@ -2,9 +2,8 @@ import Counter from "./Counter";
 
 const CounterGroup = (props) => {
 
-    const counterSize = props.counterSize
-    const setSum = props.setSum
-    const sum = props.sum
+    const {counterSize, setSum, sum} = props
+
     let array = [];
 
     for (let i = 1; i <= counterSize; i++) {

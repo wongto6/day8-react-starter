@@ -3,7 +3,7 @@ import CounterGroup from "./CounterGroup";
 
 const CounterGroupGenerator = (props) => {
 
-    const {size, setSize, reset, setReset, setCounterSize} = props
+    const {size, setSize, reset, setReset, setCounterSize, setSum} = props
 
     function handleSetSize(event) {
 
@@ -18,12 +18,13 @@ const CounterGroupGenerator = (props) => {
 
     function handleReset() {
         setCounterSize(size)
+        setSum(0)
     }
 
     return (
         <div>
             <span>size:</span>
-            <input value={size} onChange={handleSetSize} />
+            <input value={size} onChange={handleSetSize}/>
             <button onClick={handleReset}>reset</button>
         </div>
     )

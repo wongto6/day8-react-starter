@@ -2,8 +2,7 @@ import {useState} from "react";
 
 const Counter = (props) => {
 
-    const setSum = props.setSum
-    const sum = props.sum
+    const {setSum, sum} = props
 
     const [counterVal, setCounterVal] = useState(0);
 
