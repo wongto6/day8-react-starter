@@ -28,7 +28,7 @@ const CounterGroupGenerator = (props) => {
     return (
         <div>
             <span>size:</span>
-            <input value={size} onChange={handleSetSize}/>
+            <input min={0} max={20} type={"number"} value={size} onChange={handleSetSize}/>
             <button onClick={handleReset}>reset</button>
         </div>
     )
