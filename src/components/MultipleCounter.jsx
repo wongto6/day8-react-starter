@@ -1,6 +1,7 @@
 import CounterGroupGenerator from "./CounterGroupGenerator";
 import {useState} from "react";
 import CounterGroup from "./CounterGroup";
+import './MultipleCounter.css'
 
 const MultipleCounter = () => {
 
