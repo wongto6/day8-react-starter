@@ -3,7 +3,7 @@ import CounterGroup from "./CounterGroup";
 
 const CounterGroupGenerator = (props) => {
 
-    const {size, setSize, reset, setReset, setCounterSize, setSum, counterSize} = props
+    const {size, setSize, setCounterSize, setSum, counterSize} = props
 
     function handleSetSize(event) {
 
