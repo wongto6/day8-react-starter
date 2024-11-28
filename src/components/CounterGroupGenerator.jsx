@@ -27,10 +27,14 @@ const CounterGroupGenerator = (props) => {
     }
 
     function handleReset() {
+        resetSumWhenSizeChanged()
+        setCounterSize(size)
+    }
+
+    function resetSumWhenSizeChanged(){
         if (counterSize !== size) {
             setSum(0)
         }
-        setCounterSize(size)
     }
 
     return (
