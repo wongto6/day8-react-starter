@@ -10,7 +10,7 @@ const MultipleCounter = () => {
     const [sum, setSum] = useState(0);
 
     return (
-        <div>
+        <div className={'multiple-counter'}>
             <CounterGroupGenerator size={size} setSize={setSize}
                                    setCounterSize={setCounterSize} setSum={setSum} counterSize={counterSize}/>
             <span>sum: {sum}</span>
