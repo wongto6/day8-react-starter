@@ -9,13 +9,21 @@ const CounterGroupGenerator = (props) => {
 
         const inputSize = event.target.value
 
-        if (inputSize < 0) {
+        if (checkMin(inputSize)) {
             return setSize(0)
-        } else if (inputSize > 20) {
+        } else if (checkMax(inputSize)) {
             return setSize(20)
         }
 
         setSize(event.target.value)
+    }
+
+    function checkMin(value) {
+        return value < 0
+    }
+
+    function checkMax(value) {
+        return value > 20
     }
 
     function handleReset() {
