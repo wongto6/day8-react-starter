@@ -14,7 +14,7 @@ const MultipleCounter = () => {
             <CounterGroupGenerator size={size} setSize={setSize}
                                    setCounterSize={setCounterSize} setSum={setSum} counterSize={counterSize}/>
             <span>sum: {sum}</span>
-            <CounterGroup counterSize={counterSize} sum={sum} setSum={setSum}/>
+            <CounterGroup counterSize={counterSize} setSum={setSum}/>
         </div>
     )
 }

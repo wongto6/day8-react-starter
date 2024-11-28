@@ -2,7 +2,7 @@ import Counter from "./Counter";
 
 const CounterGroup = (props) => {
 
-    const {counterSize, setSum, sum} = props
+    const {counterSize, setSum} = props
 
     let array = [];
 
@@ -13,7 +13,7 @@ const CounterGroup = (props) => {
     return (
         <div>
             {[array.map((i, index) => {
-                return <Counter key={index + props.counterSize} setSum={setSum} sum={sum}/>
+                return <Counter key={index + props.counterSize} setSum={setSum}/>
             })]}
         </div>
     )
